@@ -374,18 +374,6 @@ def start_bot():
         elif choice=="9":
            insta_username = raw_input("Enter the username of the user: ")
            post_a_comment(insta_username)
-        elif choice=="10":
-           insta_username = raw_input("Enter the username of the user: ")
-           delete_negative_comment(insta_username)
-        elif choice == "11":
-           insta_username = raw_input("Enter the username of the user: ")
-           del_comment_word(insta_username)
-        elif choice == "12":
-           insta_username = raw_input("Enter the username of the user: ")
-           iterate_comments(insta_username)
-        elif choice == "13":
-            exit()
-        else:
-            print "Wrong input! Please choose a correct option."
+
 
 start_bot()
